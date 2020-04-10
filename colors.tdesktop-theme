@@ -22,23 +22,24 @@
 //
 
 // Solarized color scheme from: http://ethanschoonover.com/solarized
-base03:    #002B36;
-base02:    #073642;
-base01:    #586E75;
-base00:    #657B83;
-base0:     #839496;
-base1:     #93A1A1;
-base2:     #EEE8D5;
-base3:     #FDF6E3;
-yellow:    #B58900;
-orange:    #cb4b16;
-red:       #DC322F;
-magenta:   #D33682;
-violet:    #6C71C4;
-blue:      #268BD2;
-lightBlue: #268BD288;
-cyan:      #2AA198;
-green:     #859900;
+base03:         #002B36;
+base02:         #073642;
+transBase02:    #073642f2;
+base01:         #586E75;
+base00:         #657B83;
+base0:          #839496;
+base1:          #93A1A1;
+base2:          #EEE8D5;
+base3:          #FDF6E3;
+yellow:         #B58900;
+orange:         #cb4b16;
+red:            #DC322F;
+magenta:        #D33682;
+violet:         #6C71C4;
+blue:           #268BD2;
+lightBlue:      #268BD288;
+cyan:           #2AA198;
+green:          #859900;
 
 windowBg:                        base02;                      // Window backgrounds
 windowFg:                        base1;                       // Main text / chat text
@@ -185,7 +186,7 @@ dialogsSendingIconFg:            base01;
 dialogsSentIconFg:               blue;
 dialogsUnreadBg:                 windowBgActive;              // Chats list unread counter background
 dialogsUnreadBgMuted:            base00;                      // Chats list muted unread counter background
-dialogsUnreadFg:                 #DEDEDE;                     // Chats list unread counter text
+dialogsUnreadFg:                 base3;// #DEDEDE;                     // Chats list unread counter text
 dialogsBgOver:                   nullWindowBgOver;            // Chats list mouse over background
 dialogsNameFgOver:               windowBoldFgOver;
 dialogsChatIconFgOver:           dialogsNameFgOver;
@@ -433,3 +434,20 @@ mediaviewPlaybackIconFgOver:     mediaviewPlaybackActiveOver;
 mediaviewTransparentBg:          base3;
 mediaviewTransparentFg:          #cccccc;
 notificationBg:                  windowBg;                    // Notification background
+
+callBg:                          transBase02;
+callAnswerBg:                    green;
+callArrowFg:                     green;
+callArrowMissedFg:               red;
+callHangupBg:                    red;
+
+sideBarBg:                       base03;
+sideBarBgRipple:                 lightBlue;
+sideBarBgActive:                 windowBg;
+sideBarTextFg:                   base01;
+sideBarIconFg:                   sideBarTextFg;
+sideBarTextFgActive:             base2;
+sideBarIconFgActive:             blue;
+sideBarBadgeBg:                  dialogsUnreadBg;
+sideBarBadgeFg:                  dialogsUnreadFg;
+sideBarBadgeBgMuted:             dialogsUnreadBgMuted;
