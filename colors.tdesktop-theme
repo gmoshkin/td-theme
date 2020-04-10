@@ -23,6 +23,7 @@
 
 // Solarized color scheme from: http://ethanschoonover.com/solarized
 base03:         #002B36;
+trasnBase03:    #002B36d0;
 base02:         #073642;
 transBase02:    #073642f2;
 base01:         #586E75;
@@ -111,8 +112,8 @@ smallCloseIconFgOver:            #a3a3a3;
 radialFg:                        windowFgActive;
 radialBg:                        #550000;
 
-placeholderFg:                   #47768E;                     // Inactive input box placeholder text
-placeholderFgActive:             #38677F;                     // Active input box placeholder text
+placeholderFg:                   base0;                     // Inactive input box placeholder text
+placeholderFgActive:             base01;                     // Active input box placeholder text
 
 inputBorderFg:                   #e0e0e0;
 filterInputBorderFg:             #54c3f3;
@@ -141,8 +142,8 @@ cancelIconFg:                    menuIconFg;
 cancelIconFgOver:                menuIconFgOver;
 boxBg:                           windowBg;                    // Popup box background
 boxTextFg:                       windowFg;
-boxTextFgGood:                   #4ab44a;
-boxTextFgError:                  #d84d4d;
+boxTextFgGood:                   green;
+boxTextFgError:                  red;
 boxTitleFg:                      windowBoldFg;                // Popup box titles (contacts/sessions/etc boxes)
 boxSearchBg:                     boxBg;
 boxSearchCancelIconFg:           cancelIconFg;
@@ -415,7 +416,7 @@ mediaviewMenuBg:                 #383838;
 mediaviewMenuBgOver:             #505050;
 mediaviewMenuBgRipple:           #676767;
 mediaviewMenuFg:                 windowFgActive;
-mediaviewBg:                     #222222eb;
+mediaviewBg:                     trasnBase03;
 mediaviewVideoBg:                imageBg;
 mediaviewControlBg:              #0000003c;
 mediaviewControlFg:              windowFgActive;
